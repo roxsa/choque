@@ -1,0 +1,38 @@
+body{
+background-color:orange;
+}
+.img{
+	border:3px solid purple;
+}
+.menu-lista{
+list-style-type: none;
+margin:0;
+padding:0;
+}
+.menu-item{
+	display:inline-block;
+}
+.menu.link{
+
+}
+nav{
+	text-align:center;
+}
+.menu-link{
+	font-size:30px;
+	background: red;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	text-decoration:none;
+}
+.menu-link:hover{
+	text-decoration:underline;
+	box-shadow:5px  5px  15px yellow;
+	transition:0.5s;
+}
+.src{
+	text-align:center;
+	margin:2px;
+	padding:2px;
+}
